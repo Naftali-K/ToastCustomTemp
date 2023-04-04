@@ -29,5 +29,6 @@ public class CustomToast extends Toast {
         setView(view);
         setDuration(LENGTH_LONG);
         setGravity(Gravity.CENTER, 0, 0);
+        setGravity(Gravity.FILL_HORIZONTAL, 0, 0);
     }
 }
